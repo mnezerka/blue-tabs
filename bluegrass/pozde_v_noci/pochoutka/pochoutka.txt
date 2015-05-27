@@ -1,0 +1,20 @@
+Pochoutka (S. Kotas, Pozde v noci)
+----------------------------------
+
+Part A - housle
+Part B - housle
+Part A - dobro
+Part B - banjo
+Part A - basa
+Part B - kytara
+Part A - housle
+
+Part A: |Am7       |Bbmaj7    |          |Gm7       |
+        |C         |          |Am7       |Bbmaj7    |
+        |          | unisono 3 takty                |
+
+Part B: |Gm7       |          |Bbmaj7    |          |2x
+        |Am7       |          |Dm7       |          |3x
+        |Dm7   Gm7 |          |Dm7   Gm7 |          |
+        |Dm7   Gm7 |          |C  F  Dm7 | unisono  |
+

@@ -1,0 +1,1 @@
+Skotská skladba, která se objevila na mém oblíbeném Skip Hop and Wobble. Není to přesný přepis skladby z tohoto alba, ale jako základ pro odposlouchání to stačí. Myslím, že Barenberg to hraje taky v Cmoll.  

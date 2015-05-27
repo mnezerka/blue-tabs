@@ -1,0 +1,76 @@
+﻿b=Bm
+
+PRVNÍ VERZE
+
+1. část
+bb bb AG GA
+bb bb AG GA
+bb DD AG GA
+bb DD AG GA
+bb AG GA
+
+2. část
+bb bb AG GA
+bb DD AG GA
+bb DD AG GA
+bb
+
+Mezihra
+GG GG DD DD
+AA DD GG AA
+GG GG DD DD
+AA DD GA
+
+Konec
+DD AG GA
+bb AG GA
+bb b- bb
+AG GG GG
+
+
+DRUHÁ VERZE (ASI SPRÁVNĚJŠÍ)
+
+bb
+bb AG GA bb
+bb AG GA bb
+DD AG GA bb
+DD AG GA bb
+AG GA bb
+
+bb AG GA bb
+DD AG GA bb
+DD AG GA bb
+
+GG GG DD DD
+AA DD GG AA
+GG GG DD DD
+AA DD GA
+
+DD AG GA bb
+AG GA bb b- 
+bb AG GG GG
+
+TRETI VERZE (asi stejna jak druha vyse)
+
+Part A  |Bm    |A  G  |   A  |Bm    | 
+        |Bm    |A  G  |   A  |Bm    | 
+
+Part B  |D     |A  G  |   A  |Bm    | 
+        |D     |A  G  |   A  |
+
+Part A  |Bm    |A  G  |   A  |Bm    | 
+        |Bm    |A  G  |   A  |Bm    | 
+
+Part B  |D     |A  G  |   A  |Bm    | 
+        |D     |A  G  |   A  |Bm    |
+
+Part C  |G     |      |D     |      | (kytarove solo)
+        |A     |D     |G     |A     |
+        |G     |      |D     |      | 
+        |A     |D     |G  A  |
+
+Part A  |Bm    |A  G  |   A  |Bm    |
+        |Bm    |Bm    |A  G  |      | (prvni takt je jen prvni doba) 
+        |G     |
+
+ 

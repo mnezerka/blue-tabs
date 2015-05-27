@@ -1,0 +1,25 @@
+Kondor v (Svata Kotas, Pozde v noci)
+------------------------------------
+
+- schema se hraje na vsechny casti skladby - ty unisonove
+  i ty improvizovane - pokryva celou skladbu
+- prvni Em se hraje vzdy pres takovy ten nastup - tzn. zadne
+  takove ty predtakty 
+- part A ma dve varianty - lisi se jen tim koncovym taktem,
+  ktery je tam jednou cely a jednou polovicni - podle toho
+  co se hraje dal - pred B partem je tam ten Em a Hm7, pred
+  solem na Part A je tam jen ten kratky Em
+- jedinou vyjimku tvori nastup dobra po takovem tom tichem
+  mandolinovem sole, kdy tam misto klasickeho Em a Hm7 hrajou
+  jen ten zkraceny polovicni takt
+
+Part A: |Em      |        |D       |        | 
+        |Em      |        |D       |        |Em  Hm7 | 
+
+Part B: |C       |G       |D       |Em      |3x 
+        |C       |G       |D       |Em  | 
+
+Part A: |Em      |        |D       |        | 
+        |Em      |        |D       |        |Em  | 
+
+

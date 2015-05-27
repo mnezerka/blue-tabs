@@ -1,0 +1,13 @@
+
+
+
+    The Generic SequenceExampleMidi
+    IIm - V7Dm - G7IIm V7
+    IIm - V7 - Imaj7Dm - G7 - Cmaj7IIm V7 Imaj7
+    IIm7b5 - V7alt - Im6Dm7b5 - G7alt - Cm6IIm V7 Imin
+    Imaj7 - VI7b9 - IIm7 - V7 - IIIm7 - VI7b9 - II7 - V7Cmaj7 - A7b9 - Dm7 - G7 - Em7 - A7b9 - D7 - GI VI II V
+    I7C717
+    V7 - Imaj7G7 - Cmaj7V7 Imaj7
+
+Practice the exercises in a slow tempo at first and increase the speed gradually until you master them. 1 - index; 2 - middle; 3 - ring; 4 - small.
+

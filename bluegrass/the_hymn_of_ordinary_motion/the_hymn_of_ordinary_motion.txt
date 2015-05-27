@@ -1,0 +1,51 @@
+﻿b=Bm
+
+PRVNÍ VERZE
+
+1. část
+bb bb AG GA
+bb bb AG GA
+bb DD AG GA
+bb DD AG GA
+bb AG GA
+
+2. část
+bb bb AG GA
+bb DD AG GA
+bb DD AG GA
+bb
+
+Mezihra
+GG GG DD DD
+AA DD GG AA
+GG GG DD DD
+AA DD GA
+
+Konec
+DD AG GA
+bb AG GA
+bb b- bb
+AG GG GG
+
+
+DRUHÁ VERZE (ASI SPRÁVNĚJŠÍ)
+
+bb
+bb AG GA bb
+bb AG GA bb
+DD AG GA bb
+DD AG GA bb
+AG GA bb
+
+bb AG GA bb
+DD AG GA bb
+DD AG GA bb
+
+GG GG DD DD
+AA DD GG AA
+GG GG DD DD
+AA DD GA
+
+DD AG GA bb
+AG GA bb b- 
+bb AG GG GG
