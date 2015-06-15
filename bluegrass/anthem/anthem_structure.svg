@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="anthem_structure.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4694"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:0.60555552;fill:#000000;fill-opacity:0.60555552"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Tail"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Tail"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g4588"
+         transform="scale(-1.2)"
+         style="stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1">
+        <path
+           id="path4590"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path4592"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path4594"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path4596"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path4598"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+        <path
+           id="path4600"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round;stroke-opacity:1;fill-opacity:1" />
+      </g>
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4555"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4840"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4842"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4552"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="701.27957"
+     inkscape:cy="556.39892"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="43.571429,1043.5714"
+       id="guide3272" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="710,497.14286"
+       id="guide3073" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3882" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Markup"
+     style="display:none;opacity:0.59925082"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:0.74906365;fill:#b9b9b9;fill-opacity:1;stroke:none"
+       id="rect4642"
+       width="676.42859"
+       height="40.747684"
+       x="33.57143"
+       y="95.397896" />
+    <rect
+       style="opacity:0.74906365;fill:#fdff00;fill-opacity:1;stroke:none"
+       id="rect4642-7-0"
+       width="676.42859"
+       height="53.214314"
+       x="33.57143"
+       y="727.82678" />
+    <rect
+       style="opacity:0.74906365;fill:#ff8900;fill-opacity:1;stroke:none"
+       id="rect4642-7-6-5"
+       width="676.42859"
+       height="63.9286"
+       x="33.57143"
+       y="406.02655" />
+    <rect
+       style="opacity:0.74906365;fill:#65cf68;fill-opacity:1;stroke:none"
+       id="rect4642-7-1-6-5"
+       width="676.42859"
+       height="53.214314"
+       x="33.57143"
+       y="796.30518" />
+    <rect
+       style="opacity:0.74906365;fill:#65a1cf;fill-opacity:1;stroke:none"
+       id="rect4642-7-1-6-4"
+       width="676.42859"
+       height="98.771431"
+       x="33.57143"
+       y="618.43109" />
+    <rect
+       style="display:inline;opacity:0.74906365;fill:#fdff00;fill-opacity:1;stroke:none"
+       id="rect4642-7-0-1"
+       width="676.42859"
+       height="53.214314"
+       x="33.571411"
+       y="480.74094" />
+    <rect
+       style="display:inline;opacity:0.74906365;fill:#65cf68;fill-opacity:1;stroke:none"
+       id="rect4642-7-1-6-5-7"
+       width="676.42859"
+       height="53.214314"
+       x="33.571411"
+       y="547.2193" />
+    <rect
+       style="display:inline;opacity:0.74906365;fill:#fdff00;fill-opacity:1;stroke:none"
+       id="rect4642-7-0-4"
+       width="676.42859"
+       height="53.214314"
+       x="33.57143"
+       y="142.37297" />
+    <rect
+       style="display:inline;opacity:0.74906365;fill:#65cf68;fill-opacity:1;stroke:none"
+       id="rect4642-7-1-6-5-0"
+       width="676.42859"
+       height="53.214314"
+       x="33.57143"
+       y="202.85136" />
+    <rect
+       style="display:inline;opacity:0.74906365;fill:#fdff00;fill-opacity:1;stroke:none"
+       id="rect4642-7-0-9"
+       width="676.42859"
+       height="53.214314"
+       x="33.57143"
+       y="270.9444" />
+    <rect
+       style="display:inline;opacity:0.74906365;fill:#65cf68;fill-opacity:1;stroke:none"
+       id="rect4642-7-1-6-5-4"
+       width="676.42859"
+       height="53.214314"
+       x="33.57143"
+       y="339.42279" />
+  </g>
+  <g
+     inkscape:label="Chords"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       id="rect3644-0-7"
+       width="324.05515"
+       height="105.46177"
+       x="385.94485"
+       y="296.91702"
+       style="display:inline;fill:#000000;fill-opacity:0.13888891" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="43.57143"
+       y="72.900436"
+       id="text3274"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3276"
+         x="43.57143"
+         y="72.900436">Anthem</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="43.57143"
+       y="113.14444"
+       id="text2985-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="43.57143"
+         y="113.14444"
+         id="tspan2995-1" /><tspan
+         sodipodi:role="line"
+         x="43.57143"
+         y="131.89444"
+         id="tspan2997-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Part A:</tspan><tspan
+         sodipodi:role="line"
+         x="43.57143"
+         y="150.64444"
+         id="tspan2999-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">|Bm    |      |A     |      |Bm    |      |A     |      |</tspan><tspan
+         sodipodi:role="line"
+         x="43.57143"
+         y="169.39444"
+         id="tspan3462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">|Bm    |      |A     |F# A  |G  F# |E  A  |Bm    |      |</tspan><tspan
+         sodipodi:role="line"
+         x="43.57143"
+         y="188.14444"
+         id="tspan3460"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start" /><tspan
+         sodipodi:role="line"
+         x="43.57143"
+         y="206.89444"
+         id="tspan3025-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="488.37714"
+       y="64.362183"
+       id="text4626"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4628"
+         x="488.37714"
+         y="64.362183">Three Ring Circle</tspan><tspan
+         sodipodi:role="line"
+         x="488.37714"
+         y="76.862183"
+         id="tspan3642">(Rob Ickes / Andy Leftwich / Dave Pomeroy)</tspan><tspan
+         sodipodi:role="line"
+         x="488.37714"
+         y="89.362183"
+         id="tspan4630">From CD Brothership</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="43.688374"
+       y="193.65353"
+       id="text2985-2-64"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="43.688374"
+         y="193.65353"
+         id="tspan2995-1-7" /><tspan
+         sodipodi:role="line"
+         x="43.688374"
+         y="212.40353"
+         id="tspan2997-3-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Part B:</tspan><tspan
+         sodipodi:role="line"
+         x="43.688374"
+         y="231.15353"
+         id="tspan2999-8-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">|D     |      |A     |      |D     |      |A     |   C  |</tspan><tspan
+         sodipodi:role="line"
+         x="43.688374"
+         y="249.90353"
+         id="tspan3462-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">|B  F# |G  Bb |B  F# |G  Bb |B  F# |G  G# |A     |      |</tspan><tspan
+         sodipodi:role="line"
+         x="43.688374"
+         y="268.65353"
+         id="tspan3460-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start" /><tspan
+         sodipodi:role="line"
+         x="43.688374"
+         y="287.40353"
+         id="tspan3025-0-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start" /></text>
+    <rect
+       id="rect3644"
+       width="186.60713"
+       height="20"
+       x="236.71428"
+       y="155.00502"
+       style="fill:#000000;fill-opacity:0.13888891" />
+    <rect
+       id="rect3644-0"
+       width="375.25314"
+       height="19.747461"
+       x="48.4725"
+       y="235.3163"
+       style="display:inline;fill:#000000;fill-opacity:0.13888891" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+       x="392.26315"
+       y="313.98233"
+       id="text2985-2-64-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="392.26315"
+         y="313.98233"
+         id="tspan3025-0-9-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:none;stroke-opacity:1">Chord tips for single notes:</tspan><tspan
+         sodipodi:role="line"
+         x="392.26315"
+         y="332.73233"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:none;stroke-opacity:1"
+         id="tspan4521">B = Bm7</tspan><tspan
+         sodipodi:role="line"
+         x="392.26315"
+         y="351.48233"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:none;stroke-opacity:1"
+         id="tspan4523">F# = ?</tspan><tspan
+         sodipodi:role="line"
+         x="392.26315"
+         y="370.23233"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:none;stroke-opacity:1"
+         id="tspan4525">G = C#m7/5-</tspan><tspan
+         sodipodi:role="line"
+         x="392.26315"
+         y="388.98233"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:none;stroke-opacity:1"
+         id="tspan4527">Bb = F#7</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.60555552;marker-end:url(#TriangleOutL)"
+       d="M 385.41842,350.65189 201.51523,257.75014"
+       id="path4531"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="42.003166"
+       y="443.23984"
+       id="text2985-2-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="443.23984"
+         id="tspan2995-1-9" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="461.98984"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5194">Part A - Bass</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="480.73984"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5198">Part A - Bass + Dobro</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="499.48984"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5200">Part A - Bass + Dobro + Fiddle</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="518.23987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5202">Part B - Bass + Dobro + Fiddle</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="536.98987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5204"></tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="555.73987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5208">Part A - Dobro</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="574.48987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5206">Part B - Dobro</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="593.23987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5216" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="611.98987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5212">Part A - Fiddle</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="630.73987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5214">Part B - Fiddle</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="649.48987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5218" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="668.23987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5220">Part A - Bass (with dobro from 3rd bar)</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="686.98987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5222">Part B - Bass + Dobro + Fiddle</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="705.73987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5228" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="724.48987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5230">Part A - Basa + Dobro + Fiddle</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="743.23987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5232">End - variation on Part A</tspan><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="761.98987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5224" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="780.73987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5226" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="799.48987"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan5210" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="818.23987"
+         id="tspan3460-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start" /><tspan
+         sodipodi:role="line"
+         x="42.003166"
+         y="836.98987"
+         id="tspan3025-0-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="148.57143"
+       y="440.93362"
+       id="text5234"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5236"
+         x="148.57143"
+         y="440.93362"></tspan></text>
+  </g>
+</svg>
