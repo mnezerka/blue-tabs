@@ -1,0 +1,15 @@
+baseURL: https://xyz.cz/
+title: Blue Tabs
+
+languageCode: en
+defaultContentLanguage: cs
+
+# dont capitalize letters of tag titles
+capitalizeListTitles: false
+
+removePathAccents: true
+
+params:
+  author: Michal Nežerka
+  poweredBy: Powered by <a href='http://www.gohugo.io/'>Hugo</a>
+

@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+  {{ .Content}}
+
+  {{ with .Page.Resources.Match "files/*" }}
+    <table class="tabs">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Format</td>
+                <td>Download</td>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range . }}
+
+                {{ $ext := lower (strings.TrimPrefix "." (path.Ext .Name)) }}
+
+                <tr>
+                    <td>{{ path.Base .Name }}</td>
+                    <td>
+                        {{- if in (slice "gpx" "gp") $ext }}guitar pro{{- end -}}
+                        {{- if in (slice "pdf" ) $ext }}pdf{{- end -}}
+                        {{- if in (slice "jpg" "png" "gif" ) $ext }}image{{- end -}}
+                    </td>
+                    <td>
+                        <a href=" {{ .Permalink }}">download</a>&nbsp;
+                    </td>
+                </tr>
+            {{ end }}
+        </tbody>
+    </table>
+  {{ end }}
+
+{{ end }}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Title }}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=yes" />
+
+     <link rel="stylesheet" href="{{ "css/global.css" | absURL }}">
+
+  </head>
+
+  <body>
+
+    <div class="content">
+
+        {{ $title := strings.Title (strings.Replace ( .Title) "_" " ") }}</a>
+        <h1>{{ $title }}</h1>
+
+        {{ block "main" . }}{{ end }}
+
+    </div>
+
+    <footer class="footer">
+      <div class="copyright">© {{ now.Format "2006"}} {{ .Site.Params.Author }}</div>
+      <div class="powered-by">{{ .Site.Params.poweredBy | safeHTML }}</div>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+  {{ .Content }}
+
+  <ul>
+  {{ range .Pages }}
+      {{ $name := strings.Title (strings.Replace ( .Title) "_" " ") }}</a>
+
+      <li><a href="{{ .RelPermalink }}">{{ $name }}</a></li>
+  {{ end }}
+  </ul>
+
+{{ end }}
