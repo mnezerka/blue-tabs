@@ -1,0 +1,27 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,system-ui,"Segoe UI",Roboto,Oxygen,Ubuntu,"Helvetica Neue",Helvetica, Arial,sans-serif;
+    padding: 20px;
+}
+h1 {
+    font-size: 16pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+tr.category td {
+    font-weight: bold;
+    padding-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+tr.category td, td.song-name:first-letter {
+
+    text-transform: capitalize;
+}
+
+td.song-name {
+    text-transform: capitalize;
+
+}
+

@@ -1,72 +1,94 @@
 #!/usr/bin/env bash
 
-function song_dir() {
+GH_PRFIX="https://github.com/mnezerka/blue-tabs/blob/master/"
 
-    local song_dir=$1
-    local song=$(basename $song_dir)
-    local song_webdir="$2/$song"
-    local song_webdir_files="$song_webdir/files"
+function header() {
+cat <<EOF
+<html>
+    <head>
+        <title>BlueTabs</title>
+        <link rel=stylesheet href=global.css>
+    </head>
+    <body>
+        <h1>BlueTabs</h1>
 
-    echo "songdir=$song_dir song=$song songwebdir=$song_webdir swebdirfiles=$song_webdir_files"
+        <p>
+            This is my personal collection of tablatures and sheet music, which I make freely
+            available for anyone to use. Please note that I cannot guarantee their accuracy
+            or completeness. Some of the pieces are unfinished for various reasons, such as
+            lack of motivation, knowledge, or skills. Feedback is always welcome at
+            michal.nezerka@gmail.com .
+        </p>
 
-    mkdir -p "$song_webdir_files"
-
-    local index_path=$song_webdir/index.md
-
-    cat >$index_path<<EOL
----
-title: $song
----
-EOL
-
-    for f in $song_dir/*; do
-        echo $f
-        if [ -d "$f" ]; then
-            echo "WARN: dir inside song dir $f"
-            return
-        fi
-        cp "$f" "$song_webdir_files"
-    done
+        <table>
+            <tbody>
+EOF
 }
 
-
-function category_dir() {
-    local category_dir=$1
-
-    echo "processing category dir $category_dir"
-
-    local category=$(echo $1 | cut -d "/" -f 2 | sed 's/_/ /g')
-
-    # skip some categories
-    if [[ "$category" =~ ^(web|own)$ ]]; then return; fi
-
-    local category_webdir="content/${category}"
-    mkdir -p $category_webdir
-
-    # generate index from title and optional content in README
-    local index_path=$category_webdir/_index.md
-    cat >$index_path<<EOL
----
-title: $category
----
-EOL
-
-    if [ -f "$category_dir/README.md" ]; then
-      cat $category_dir/README.md >> "$index_path"
-    fi
-
-    for d in $category_dir/*; do
-        if [ -d "$d" ]; then
-            song_dir "$d" "$category_webdir"
-        fi
-    done
+function footer() {
+cat <<EOF
+            </tbody>
+        </table>
+    </body>
+</html>
+EOF
 }
 
 ############################### main
 
-for d in ../*; do
-    if [ -d $d ]; then
-        category_dir "$d"
-    fi
+header
+
+cat_last=""
+song_last=""
+
+for cat_dir in *; do
+
+    # skip non-directories
+    if [ ! -d $cat_dir ]; then continue; fi
+
+    echo "processing category dir $cat_dir" >&2
+
+    cat=$(echo $cat_dir | cut -d "/" -f 2 | sed 's/_/ /g')
+
+    # skip some categories
+    if [[ "$cat" =~ ^(web|own)$ ]]; then continue; fi
+
+    # loop through all songs
+    for song_dir in $cat_dir/*; do
+        if [ ! -d "$song_dir" ]; then continue; fi
+
+        song=$(basename $song_dir)
+
+        # loop through song files
+
+        for song_file_path in $song_dir/*; do
+
+            if [ -d "$f" ]; then
+                echo "WARN: dir inside song dir $f" >&2
+                continue
+            fi
+
+            if [ "$cat" != "$cat_last" ]; then
+                echo "<tr class=\"category\">"
+                echo "  <td colspan=\"3\">$cat</td>"
+                echo "</tr>"
+            fi
+
+            html_song=$( [ "$song" = "$song_last" ] && echo "" || echo $song )
+            html_song="${html_song//_/ }"
+            html_file=$( basename $song_file_path )
+            html_url="${GH_PRFIX}/${song_file_path}?raw=true"
+            echo "<tr>"
+            echo "  <td class=\"song-name\">$html_song</td>"
+            echo "  <td class=\"song-file\">$html_file</td>"
+            echo "  <td class=\"song-download\"><a href="$html_url">download</a></td>"
+            echo "</tr>"
+
+            song_last=$song
+            cat_last=$cat
+
+        done
+    done
 done
 
+footer
