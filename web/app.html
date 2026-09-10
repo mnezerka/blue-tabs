@@ -278,6 +278,10 @@
           <div class="at-song-position">00:00 / 00:00</div>
         </div>
         <div class="at-controls-right">
+          <a class="btn at-open-file" title="Open local file">
+            <i class="fas fa-folder-open"></i>
+          </a>
+          <input type="file" id="at-file-input" accept=".gp,.gpx,.gp3,.gp4,.gp5" style="display:none">
           <a class="btn toggle at-count-in">
             <i class="fas fa-hourglass-half"></i>
           </a>        
@@ -460,6 +464,18 @@
       api.playerReady.on(() => {
         playerIndicator.style.display = "none";
       });
+
+      // open local file
+      const openFileBtn = wrapper.querySelector(".at-controls .at-open-file");
+      const fileInput = document.getElementById("at-file-input");
+      openFileBtn.onclick = () => fileInput.click();
+      fileInput.onchange = () => {
+        const file = fileInput.files[0];
+        if (file) {
+          api.load(file);
+        }
+        fileInput.value = "";
+      };
 
       // main player controls
       const playPause = wrapper.querySelector(
