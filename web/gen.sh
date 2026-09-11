@@ -81,7 +81,16 @@ for cat_dir in *; do
             echo "<tr>"
             echo "  <td class=\"song-name\">$html_song</td>"
             echo "  <td class=\"song-file\">$html_file</td>"
-            echo "  <td class=\"song-download\"><a href="$html_url">download</a></td>"
+            echo "  <td class=\"song-download\"><a href=\"$html_url\">download</a></td>"
+            case "$html_file" in
+                *.gp|*.gpx)
+                    html_url_encoded=$(printf '%s' "$html_url" | sed 's/%/%25/g; s/ /%20/g; s/:/%3A/g; s|/|%2F|g; s/?/%3F/g; s/=/%3D/g; s/&/%26/g; s/#/%23/g; s/+/%2B/g')
+                    echo "  <td class=\"song-play\"><a href=\"app.html?file=${html_url_encoded}\">play</a></td>"
+                    ;;
+                *)
+                    echo "  <td class=\"song-play\"></td>"
+                    ;;
+            esac
             echo "</tr>"
 
             song_last=$song
